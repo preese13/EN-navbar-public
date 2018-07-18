@@ -20,7 +20,7 @@
 
 
  .container {
-     max-width: 1200px;
+     max-width: 1400px;
  }
 
  #navbar {
@@ -35,3 +35,38 @@
  a {
      cursor: pointer;
  }
+
+ li :hover {
+     color: #105685 !important;
+ }
+
+ .en-btn {
+    border: 2px solid #fff;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 7px 10px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 50px;
+ }
+
+ .en-oj-btn {
+    background-color: #ffae00;
+    color: #fff !important;
+    border-color: #ffae00 !important;
+}
+
+.login-btn {
+    border: 2px solid #509444;
+    color: #509444 !important;
+    background-color: transparent;
+}
+
+
+.login-btn:hover {
+    border: 2px solid #509444;
+    color: white !important;
+    background-color: #509444 !important;
+}
