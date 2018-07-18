@@ -1,0 +1,37 @@
+.dropdown-menu:li {
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+ .navbar-default {
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255);
+    border: 0 solid transparent;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+ }
+
+
+ .container {
+     max-width: 1200px;
+ }
+
+ #navbar {
+     margin-top: 15px;
+ }
+
+ .nav {
+     float: right !important;
+     font-size: 18px !important; 
+ }
+
+ a {
+     cursor: pointer;
+ }
